@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Build outputs (adjust to whatever you use)
+dist/
+build/
+out/
+
+# Coverage / test outputs
+coverage/
+.nyc_output/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.*
+!.env.example
+.env.local
+
+# Caches
+.cache/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+
+# TypeScript emitted artifacts (works even if you don't use `outDir`)
+*.js
+*.js.map
+*.d.ts
+*.d.ts.map
+
+# Local runtime data (optional; keep if you want to commit these)
+data/*.sqlite
+data/*.db
+data/*.log
+
